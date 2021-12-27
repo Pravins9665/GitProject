@@ -1,0 +1,48 @@
+Git & GitHub
+----------------
+-Git is Local repository 
+-GitHub is remote repository
+-Git is tool, where Github is service to use Git.
+
+
+Git Basic Commands
+---------------------
+pwd --> present working directory --> it will return current directory/path
+ls  --> it will list out all the folders/files from pwd
+git init --> it will create empty local repository to current directory 
+git status --> it will return the status of local repository
+git add -all --> it will track all the files(staging) into local repository
+git add demo  --> it will add the specific file with the name demo added to staging
+git commit -m "commit message"  --> it will commit all the files 
+git log --> it will return all commit history details
+git commit -a -m "message"  --> it will commit the modified files to local repository
+git clone 'URL of github repository'  --> it will clone the github(remote) repository to local repository
+
+
+To push code from local to remote repository
+--------------------------------------------
+git remote add origin https://github.com/Pravins9665/GitProject.git
+git branch -M main
+git push -u origin main     or       git push -f origin main
+
+
+How to import Github files to eclipce?
+-------------------------------------------
+1. Internet must be connected to pc.
+2. In eclipce, click on file option at left corner.
+3. click on import option.
+4. then you will get new window, where click on Git ---> Porject from git & click next.
+5. choose 2nd option, clone URI & click next.
+6. "https://github.com/QAAutomation-lab/MorningBatch1" copy this URI & paste in URI section & click next.
+7. In next window, click next.
+8. Then choose the path destination, where you want to store those programs at local folder, save it & click next.
+9. In next window, you will get 3 radio buttons, choose "Import as general project" & click next.
+10.Then set your project name or let it be as it is, just finish it.
+
+
+How to update programs in eclipce day by day?
+-------------------------------------------------
+1. Right click on project, which cloned from github.
+2. Select Team --> Pull... (there are two pull otions, choose pull with 3 dots.)
+3. Click on finish.
+4. close it.
